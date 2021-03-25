@@ -13,6 +13,7 @@ namespace Loyalty.ApiGateway.Proxies
     // This implementation of ICustomerProxy is making external calls to the Customer component (distributed variant).
     public class CustomerApiProxy : ICustomerProxy
     {
+        // This is just a sample. In production we may want to use some retry policies, circuit breakers (Polly is a nice package).
         public Task<List<CustomerResult>> GetCustomers()
         {
             var client = new HttpClient();
