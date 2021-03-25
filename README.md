@@ -4,9 +4,10 @@ This is a sample app used for internal purposes, demonstrating various technique
 
 There are comments all over the code, providing details on various usages.
 
-In general, the sample provides information on:
+The sample covers the following topics:
 - How to structure your repository
 - How to structure your solution and projects
+
 If you doing microservices, you want to keep it simple and use a single project (anyway it's a small app). But, in our case, we're not doing microservices per se. The Customer component is relatively large, and it's wise to separate it into several layers. That's especially useful since you're having different implementations for various clients. You can use the common stuff, and create separate layers as required.
 - How to use various persistence technologies/techniques/patterns
 	- EntityFramework Core
@@ -47,8 +48,12 @@ The solution can be run in two modes, either in "monolithic" or "distributed" mo
 Some references to various patterns that are applied here:
 
 https://github.com/ardalis/Specification
+
 https://ardalis.com/building-a-cachedrepository-in-aspnet-core/
+
 https://fiseni.com/posts/open-close-principle-and-runtime-di-configuration/
+
 https://fiseni.com/posts/immutable-entities-in-ef-core/
+
 https://fiseni.com/posts/alternative-caching-implementations-and-cache-invalidation/
 
