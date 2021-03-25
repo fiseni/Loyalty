@@ -45,6 +45,8 @@ The solution can be run in two modes, either in "monolithic" or "distributed" mo
 
 Some references to various patterns that are applied here:
 
+https://github.com/ardalis/ApiEndpoints
+
 https://github.com/ardalis/Specification
 
 https://ardalis.com/building-a-cachedrepository-in-aspnet-core/
